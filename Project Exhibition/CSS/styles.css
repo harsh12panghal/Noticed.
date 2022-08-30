@@ -78,9 +78,56 @@ button:hover{
 
 .section-blue{
     background-color: rgba(19,14,127, 1);
-    height: 100vh;
+    height: 200vh;
 }
 .section-pink{
     background-color:rgba(245,179,174, 1); ;
-    height: 100vh;
+    height: 200vh;
+}
+
+/* CONTENT */
+
+.heading{
+    padding: 10% 20%;
+    text-align: center;
+}
+.heading h1{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.content{
+    text-align: center;
+    padding: 10%;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.content p{
+    color: whitesmoke;
+    text-align: left;
+    font-size: 13px;
+}
+
+.img{
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+
+
+div .custom-marker {
+    /* background-color: red; */
+    padding-left: 70px;
+    padding-top: 100px;
+    list-style-image: url(/img/9054240_bx_cctv_icon.png);
+    
+}
+  
+.custom-marker li {
+    /* padding-top: 20px; */
+    color: blue;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
 }
